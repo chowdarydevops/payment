@@ -74,6 +74,10 @@ under the License.
     <surefire.version>2.21.0</surefire.version>
     <javaVersion>7</javaVersion>
   </properties>
+  
+  <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+   </properties>
 
   <dependencyManagement>
     <dependencies>
